@@ -1,0 +1,7 @@
+<%= link_to "Generate new poem", new_article_path %>
+
+<% poem = Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem) %>
+
+<hr>
+
+<%= link_to "Back to poems", articles_path %>

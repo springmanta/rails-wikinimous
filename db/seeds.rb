@@ -7,3 +7,16 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+require 'faker'
+
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)
+Article.create(title: Faker::Fantasy::Tolkien.character, content: Faker::Fantasy::Tolkien.poem)

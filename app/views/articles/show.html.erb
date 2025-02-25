@@ -1,0 +1,15 @@
+<h3><%= @article.title %></h3>
+<p><em>"<%= @article.content %>"</em></p>
+
+<%= link_to "Edit Poem", edit_article_path %>
+
+<p></p>
+
+<%= link_to "Back to poems...", articles_path %>
+
+<hr>
+
+<%= link_to "Delete poem",
+  article_path(@article),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
